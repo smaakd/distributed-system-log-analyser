@@ -1,0 +1,195 @@
+Traceback (most recent call last):
+  File "./random_traceback.py", line 108, in get_random_error_string
+  File "./random_traceback.py", line 77, in return_output
+  File "./random_traceback.py", line 55, in get_data
+  File "./random_traceback.py", line 81, in return_output
+ConflictError: Mismatched argumnets
+Traceback (most recent call last):
+  File "./random_traceback.py", line 113, in get_random_error_string
+  File "./random_traceback.py", line 88, in get_attributes
+  File "./random_traceback.py", line 92, in get_attributes
+ConflictError: Mismatched argumnets
+2019-03-03 13:18:35.558372 DBG gflags_handler.py:227 Creating task
+2019-03-03 13:18:35.660820 INFO audit_logger.py:299 Node created
+2019-03-03 13:18:35.711226 INFO scheduler.py:314 Fanning out RPC
+Traceback (most recent call last):
+  File "./random_traceback.py", line 103, in get_random_error_string
+  File "./random_traceback.py", line 66, in extract_metadata
+  File "./random_traceback.py", line 81, in return_output
+ConflictError: Conflicting data types
+2019-03-03 13:18:36.216765 DBG fanout.py:27 Node destroyed
+2019-03-03 13:18:36.469333 DBG task_generator.py:348 Fanning out RPC
+2019-03-03 13:18:36.520697 ERROR fanout.py:261 Gathering logs from all nodes
+2019-03-03 13:18:36.571500 INFO wsgi_handler.py:184 Gathering logs from all nodes
+2019-03-03 13:18:36.826124 ERROR protobuf_parser.py:146 Combining logs from all nodes into single log file
+2019-03-03 13:18:37.029224 INFO ssh_tunnel.py:178 Gathering node data
+2019-03-03 13:18:37.180542 DBG task_generator.py:82 Gathering node data
+2019-03-03 13:18:37.791450 DBG rpc_client.py:118 Node created
+Traceback (most recent call last):
+  File "./random_traceback.py", line 98, in get_random_error_string
+  File "./random_traceback.py", line 53, in get_data
+  File "./random_traceback.py", line 70, in extract_metadata
+InvalidArgumentError: Arguments not supported
+2019-03-03 13:18:38.248404 INFO fanout.py:87 Combining logs from all nodes into single log file
+2019-03-03 13:18:38.750374 DBG log_collector.py:337 Fanning out RPC
+2019-03-03 13:18:38.800480 ERROR db_write.py:7 Fanning out RPC
+Traceback (most recent call last):
+  File "./random_traceback.py", line 108, in get_random_error_string
+  File "./random_traceback.py", line 75, in return_output
+  File "./random_traceback.py", line 70, in extract_metadata
+BasicAuthRequiredError: Username not provided
+Traceback (most recent call last):
+  File "./random_traceback.py", line 113, in get_random_error_string
+  File "./random_traceback.py", line 92, in get_attributes
+InvalidArgumentError: Unable to parse arguments
+2019-03-03 13:18:39.909885 ERROR scheduler.py:203 Gathering logs from all nodes
+2019-03-03 13:18:40.011200 INFO ssh_tunnel.py:49 Fanning out RPC
+Traceback (most recent call last):
+  File "./random_traceback.py", line 103, in get_random_error_string
+  File "./random_traceback.py", line 70, in extract_metadata
+BasicAuthRequiredError: Password not provided
+2019-03-03 13:18:41.027292 ERROR task_generator.py:277 Generated binary file
+2019-03-03 13:18:41.230632 DBG http_handler.py:186 Fanning out RPC
+2019-03-03 13:18:41.536342 INFO db_read.py:268 Node created
+2019-03-03 13:18:41.639510 INFO log_collector.py:183 Gathering logs from all nodes
+2019-03-03 13:18:41.690032 DBG db_write.py:292 Fanning out RPC
+Traceback (most recent call last):
+  File "./random_traceback.py", line 113, in get_random_error_string
+  File "./random_traceback.py", line 86, in get_attributes
+  File "./random_traceback.py", line 59, in get_data
+MissingAttributeError: Extra attribute needed
+2019-03-03 13:18:42.145637 DBG http_handler.py:269 Creating task
+Traceback (most recent call last):
+  File "./random_traceback.py", line 103, in get_random_error_string
+  File "./random_traceback.py", line 70, in extract_metadata
+ConflictError: Mismatched argumnets
+2019-03-03 13:18:42.549351 ERROR log_collector.py:325 Node created
+2019-03-03 13:18:42.751240 ERROR db_read.py:232 Creating task
+2019-03-03 13:18:42.952607 DBG db_read.py:230 Gathering node data
+2019-03-03 13:18:43.506813 INFO rpc_client.py:257 Gathering logs from all nodes
+Traceback (most recent call last):
+  File "./random_traceback.py", line 108, in get_random_error_string
+  File "./random_traceback.py", line 81, in return_output
+InvalidArgumentError: Arguments not supported
+2019-03-03 13:18:43.860194 DBG gflags_handler.py:213 Fanning out RPC
+2019-03-03 13:18:44.162573 INFO fanout.py:104 Node destroyed
+2019-03-03 13:18:44.716700 INFO alert_manager.py:176 Combining logs from all nodes into single log file
+2019-03-03 13:18:44.918137 DBG ssh_tunnel.py:282 Node destroyed
+2019-03-03 13:18:45.573593 DBG http_handler.py:37 Gathering node data
+2019-03-03 13:18:45.927187 ERROR fanout.py:170 Gathering node data
+2019-03-03 13:18:46.432765 DBG db_read.py:321 Gathering logs from all nodes
+Traceback (most recent call last):
+  File "./random_traceback.py", line 113, in get_random_error_string
+  File "./random_traceback.py", line 92, in get_attributes
+ConflictError: Conflicting data types
+2019-03-03 13:18:47.039965 INFO rpc_client.py:106 Fanning out RPC
+Traceback (most recent call last):
+  File "./random_traceback.py", line 113, in get_random_error_string
+  File "./random_traceback.py", line 92, in get_attributes
+InvalidArgumentError: Unable to parse arguments
+2019-03-03 13:18:47.545151 ERROR rpc_client.py:301 Gathering logs from all nodes
+2019-03-03 13:18:47.898388 INFO log_collector.py:364 Node created
+Traceback (most recent call last):
+  File "./random_traceback.py", line 103, in get_random_error_string
+  File "./random_traceback.py", line 64, in extract_metadata
+  File "./random_traceback.py", line 86, in get_attributes
+  File "./random_traceback.py", line 53, in get_data
+  File "./random_traceback.py", line 70, in extract_metadata
+ConflictError: Data structure not supported
+2019-03-03 13:18:48.150306 INFO scheduler.py:200 Gathering node data
+2019-03-03 13:18:48.805447 ERROR http_handler.py:353 Fanning out RPC
+2019-03-03 13:18:50.064211 ERROR rpc_client.py:193 Generated binary file
+2019-03-03 13:18:50.114841 INFO wsgi_handler.py:244 Node created
+Traceback (most recent call last):
+  File "./random_traceback.py", line 103, in get_random_error_string
+  File "./random_traceback.py", line 70, in extract_metadata
+BadRequestError: Request buffer too small
+2019-03-03 13:18:50.468279 ERROR wsgi_handler.py:111 Combining logs from all nodes into single log file
+2019-03-03 13:18:50.619399 ERROR log_collector.py:110 Generated binary file
+2019-03-03 13:18:50.770899 DBG audit_logger.py:183 Combining logs from all nodes into single log file
+2019-03-03 13:18:51.577478 INFO ssh_tunnel.py:371 Gathering logs from all nodes
+2019-03-03 13:18:52.332558 INFO scheduler.py:306 Fanning out RPC
+2019-03-03 13:18:52.433019 ERROR db_write.py:296 Gathering logs from all nodes
+2019-03-03 13:18:52.533617 ERROR protobuf_parser.py:215 Node created
+Traceback (most recent call last):
+  File "./random_traceback.py", line 108, in get_random_error_string
+  File "./random_traceback.py", line 75, in return_output
+  File "./random_traceback.py", line 66, in extract_metadata
+  File "./random_traceback.py", line 77, in return_output
+  File "./random_traceback.py", line 55, in get_data
+  File "./random_traceback.py", line 81, in return_output
+ConflictError: Conflicting data types
+2019-03-03 13:18:52.937046 ERROR db_write.py:147 Combining logs from all nodes into single log file
+2019-03-03 13:18:53.240858 ERROR audit_logger.py:109 Gathering node data
+2019-03-03 13:18:53.442143 ERROR audit_logger.py:120 Gathering logs from all nodes
+2019-03-03 13:18:53.643378 INFO protobuf_parser.py:26 Creating task
+Traceback (most recent call last):
+  File "./random_traceback.py", line 103, in get_random_error_string
+  File "./random_traceback.py", line 64, in extract_metadata
+  File "./random_traceback.py", line 92, in get_attributes
+ConflictError: Conflicting data types
+2019-03-03 13:18:54.096599 ERROR log_collector.py:7 Node destroyed
+2019-03-03 13:18:54.147521 ERROR db_write.py:143 Gathering node data
+2019-03-03 13:18:54.399699 INFO http_handler.py:48 Generated binary file
+2019-03-03 13:18:54.450085 ERROR task_generator.py:295 Generated binary file
+2019-03-03 13:18:54.701792 ERROR db_write.py:11 Fanning out RPC
+Traceback (most recent call last):
+  File "./random_traceback.py", line 108, in get_random_error_string
+  File "./random_traceback.py", line 81, in return_output
+InvalidArgumentError: Provided too many arguments
+2019-03-03 13:18:54.802675 INFO publisher.py:40 Combining logs from all nodes into single log file
+2019-03-03 13:18:55.256190 DBG db_read.py:250 Gathering node data
+Traceback (most recent call last):
+  File "./random_traceback.py", line 113, in get_random_error_string
+  File "./random_traceback.py", line 92, in get_attributes
+ConflictError: Conflicting data types
+2019-03-03 13:18:55.709561 DBG protobuf_parser.py:73 Generated binary file
+2019-03-03 13:18:56.113361 INFO fanout.py:379 Combining logs from all nodes into single log file
+2019-03-03 13:18:56.567956 ERROR wsgi_handler.py:268 Node destroyed
+2019-03-03 13:18:56.719343 INFO audit_logger.py:245 Gathering node data
+2019-03-03 13:18:56.971747 DBG log_collector.py:29 Combining logs from all nodes into single log file
+2019-03-03 13:18:57.225023 DBG db_write.py:367 Creating task
+2019-03-03 13:18:57.275732 ERROR audit_logger.py:53 Gathering node data
+2019-03-03 13:18:57.427030 INFO db_read.py:281 Fanning out RPC
+2019-03-03 13:18:57.780815 DBG protobuf_parser.py:181 Node created
+Traceback (most recent call last):
+  File "./random_traceback.py", line 98, in get_random_error_string
+  File "./random_traceback.py", line 55, in get_data
+  File "./random_traceback.py", line 81, in return_output
+ConflictError: Data structure not supported
+2019-03-03 13:18:58.236476 DBG wsgi_handler.py:227 Fanning out RPC
+2019-03-03 13:18:58.286945 ERROR alert_manager.py:345 Gathering logs from all nodes
+2019-03-03 13:18:59.703172 DBG task_generator.py:390 Gathering logs from all nodes
+2019-03-03 13:19:00.006139 DBG wsgi_handler.py:127 Combining logs from all nodes into single log file
+2019-03-03 13:19:00.208020 DBG alert_manager.py:127 Gathering node data
+Traceback (most recent call last):
+  File "./random_traceback.py", line 108, in get_random_error_string
+  File "./random_traceback.py", line 77, in return_output
+  File "./random_traceback.py", line 55, in get_data
+  File "./random_traceback.py", line 77, in return_output
+  File "./random_traceback.py", line 59, in get_data
+MissingAttributeError: Extra attribute needed
+2019-03-03 13:19:01.216364 ERROR scheduler.py:379 Node destroyed
+Traceback (most recent call last):
+  File "./random_traceback.py", line 108, in get_random_error_string
+  File "./random_traceback.py", line 77, in return_output
+  File "./random_traceback.py", line 53, in get_data
+  File "./random_traceback.py", line 66, in extract_metadata
+  File "./random_traceback.py", line 81, in return_output
+ConflictError: Mismatched argumnets
+2019-03-03 13:19:01.619233 INFO scheduler.py:208 Gathering node data
+Traceback (most recent call last):
+  File "./random_traceback.py", line 98, in get_random_error_string
+  File "./random_traceback.py", line 55, in get_data
+  File "./random_traceback.py", line 75, in return_output
+  File "./random_traceback.py", line 66, in extract_metadata
+  File "./random_traceback.py", line 77, in return_output
+  File "./random_traceback.py", line 59, in get_data
+MissingAttributeError: Extra attribute needed
+Traceback (most recent call last):
+  File "./random_traceback.py", line 98, in get_random_error_string
+  File "./random_traceback.py", line 53, in get_data
+  File "./random_traceback.py", line 70, in extract_metadata
+InvalidArgumentError: Provided too many arguments
+2019-03-03 13:19:02.778969 DBG http_handler.py:12 Generated binary file
+2019-03-03 13:19:02.930621 DBG audit_logger.py:202 Node created

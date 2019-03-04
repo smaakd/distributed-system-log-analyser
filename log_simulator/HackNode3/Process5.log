@@ -1,0 +1,177 @@
+2019-03-03 13:18:35.150246 ERROR gflags_handler.py:9 Gathering logs from all nodes
+2019-03-03 13:18:35.506967 INFO alert_manager.py:400 Creating task
+2019-03-03 13:18:36.063471 INFO http_handler.py:340 Gathering node data
+2019-03-03 13:18:36.165139 INFO alert_manager.py:382 Fanning out RPC
+2019-03-03 13:18:36.469466 DBG db_read.py:50 Creating task
+2019-03-03 13:18:36.622721 INFO audit_logger.py:205 Gathering logs from all nodes
+2019-03-03 13:18:36.724261 DBG db_read.py:376 Node destroyed
+2019-03-03 13:18:37.433496 INFO db_read.py:242 Generated binary file
+Traceback (most recent call last):
+  File "./random_traceback.py", line 113, in get_random_error_string
+  File "./random_traceback.py", line 92, in get_attributes
+ConflictError: Data structure not supported
+2019-03-03 13:18:37.790851 ERROR gflags_handler.py:155 Gathering node data
+Traceback (most recent call last):
+  File "./random_traceback.py", line 98, in get_random_error_string
+  File "./random_traceback.py", line 53, in get_data
+  File "./random_traceback.py", line 70, in extract_metadata
+MissingAttributeError: Attribute missing
+2019-03-03 13:18:38.096829 INFO log_collector.py:144 Fanning out RPC
+Traceback (most recent call last):
+  File "./random_traceback.py", line 103, in get_random_error_string
+  File "./random_traceback.py", line 66, in extract_metadata
+  File "./random_traceback.py", line 81, in return_output
+MissingAttributeError: Attribute not provided
+Traceback (most recent call last):
+  File "./random_traceback.py", line 108, in get_random_error_string
+  File "./random_traceback.py", line 77, in return_output
+  File "./random_traceback.py", line 59, in get_data
+ConflictError: Data structure not supported
+2019-03-03 13:18:38.751119 ERROR scheduler.py:168 Combining logs from all nodes into single log file
+2019-03-03 13:18:39.052122 ERROR scheduler.py:274 Fanning out RPC
+2019-03-03 13:18:39.859689 INFO publisher.py:107 Creating task
+2019-03-03 13:18:39.910124 INFO db_write.py:273 Creating task
+2019-03-03 13:18:40.416831 INFO log_collector.py:199 Generated binary file
+2019-03-03 13:18:40.619302 ERROR publisher.py:260 Generated binary file
+2019-03-03 13:18:40.976397 ERROR publisher.py:347 Node destroyed
+Traceback (most recent call last):
+  File "./random_traceback.py", line 103, in get_random_error_string
+  File "./random_traceback.py", line 64, in extract_metadata
+  File "./random_traceback.py", line 92, in get_attributes
+ConflictError: Conflicting data types
+2019-03-03 13:18:41.536575 DBG protobuf_parser.py:220 Node destroyed
+2019-03-03 13:18:42.094222 INFO gflags_handler.py:120 Generated binary file
+2019-03-03 13:18:42.347832 INFO gflags_handler.py:298 Generated binary file
+2019-03-03 13:18:42.449323 DBG log_collector.py:85 Generated binary file
+Traceback (most recent call last):
+  File "./random_traceback.py", line 98, in get_random_error_string
+  File "./random_traceback.py", line 53, in get_data
+  File "./random_traceback.py", line 64, in extract_metadata
+  File "./random_traceback.py", line 92, in get_attributes
+BasicAuthRequiredError: Password not provided
+2019-03-03 13:18:42.803687 INFO gflags_handler.py:341 Node destroyed
+2019-03-03 13:18:43.258470 ERROR log_collector.py:375 Gathering node data
+2019-03-03 13:18:43.612455 DBG protobuf_parser.py:193 Generated binary file
+2019-03-03 13:18:43.713756 INFO http_handler.py:242 Node destroyed
+Traceback (most recent call last):
+  File "./random_traceback.py", line 108, in get_random_error_string
+  File "./random_traceback.py", line 75, in return_output
+  File "./random_traceback.py", line 70, in extract_metadata
+MissingAttributeError: Attribute missing
+2019-03-03 13:18:44.321375 ERROR alert_manager.py:282 Node created
+2019-03-03 13:18:44.421818 INFO task_generator.py:5 Gathering node data
+2019-03-03 13:18:44.471982 ERROR ssh_tunnel.py:396 Node created
+2019-03-03 13:18:44.724757 INFO gflags_handler.py:303 Node destroyed
+2019-03-03 13:18:45.078680 INFO rpc_client.py:204 Node created
+2019-03-03 13:18:45.129033 DBG alert_manager.py:355 Gathering logs from all nodes
+2019-03-03 13:18:45.330557 INFO db_write.py:266 Generated binary file
+2019-03-03 13:18:45.987815 ERROR db_write.py:137 Gathering node data
+Traceback (most recent call last):
+  File "./random_traceback.py", line 108, in get_random_error_string
+  File "./random_traceback.py", line 75, in return_output
+  File "./random_traceback.py", line 70, in extract_metadata
+MissingAttributeError: Attribute missing
+2019-03-03 13:18:46.342960 INFO gflags_handler.py:204 Combining logs from all nodes into single log file
+2019-03-03 13:18:46.546112 INFO db_read.py:261 Gathering node data
+2019-03-03 13:18:46.596867 ERROR ssh_tunnel.py:162 Gathering node data
+2019-03-03 13:18:46.749719 ERROR fanout.py:224 Combining logs from all nodes into single log file
+2019-03-03 13:18:47.002991 INFO audit_logger.py:286 Combining logs from all nodes into single log file
+Traceback (most recent call last):
+  File "./random_traceback.py", line 113, in get_random_error_string
+  File "./random_traceback.py", line 88, in get_attributes
+  File "./random_traceback.py", line 92, in get_attributes
+ConflictError: Mismatched argumnets
+Traceback (most recent call last):
+  File "./random_traceback.py", line 108, in get_random_error_string
+  File "./random_traceback.py", line 77, in return_output
+  File "./random_traceback.py", line 55, in get_data
+  File "./random_traceback.py", line 81, in return_output
+BadRequestError: Request buffer too large
+Traceback (most recent call last):
+  File "./random_traceback.py", line 113, in get_random_error_string
+  File "./random_traceback.py", line 86, in get_attributes
+  File "./random_traceback.py", line 53, in get_data
+  File "./random_traceback.py", line 70, in extract_metadata
+BasicAuthRequiredError: Password not provided
+2019-03-03 13:18:47.966435 INFO protobuf_parser.py:86 Gathering logs from all nodes
+2019-03-03 13:18:48.016912 ERROR http_handler.py:126 Creating task
+2019-03-03 13:18:48.471964 ERROR scheduler.py:361 Creating task
+2019-03-03 13:18:48.522460 INFO http_handler.py:239 Gathering node data
+2019-03-03 13:18:48.876586 DBG publisher.py:48 Gathering logs from all nodes
+2019-03-03 13:18:48.978769 INFO log_collector.py:251 Generated binary file
+2019-03-03 13:18:49.180900 INFO gflags_handler.py:343 Fanning out RPC
+2019-03-03 13:18:49.483680 DBG wsgi_handler.py:99 Gathering logs from all nodes
+2019-03-03 13:18:49.634962 DBG protobuf_parser.py:205 Creating task
+2019-03-03 13:18:49.836241 DBG db_write.py:102 Fanning out RPC
+2019-03-03 13:18:49.887108 ERROR log_collector.py:236 Gathering node data
+2019-03-03 13:18:49.937810 ERROR scheduler.py:378 Node destroyed
+2019-03-03 13:18:50.038953 DBG http_handler.py:164 Generated binary file
+2019-03-03 13:18:50.191379 DBG log_collector.py:57 Fanning out RPC
+2019-03-03 13:18:50.544545 DBG fanout.py:284 Generated binary file
+2019-03-03 13:18:50.797771 ERROR scheduler.py:221 Combining logs from all nodes into single log file
+2019-03-03 13:18:50.898687 INFO protobuf_parser.py:160 Generated binary file
+2019-03-03 13:18:50.949063 DBG rpc_client.py:310 Combining logs from all nodes into single log file
+2019-03-03 13:18:50.999555 ERROR ssh_tunnel.py:157 Node created
+2019-03-03 13:18:51.049963 INFO db_write.py:270 Gathering node data
+2019-03-03 13:18:51.150710 INFO protobuf_parser.py:171 Node created
+2019-03-03 13:18:51.252455 DBG fanout.py:262 Generated binary file
+2019-03-03 13:18:51.505129 ERROR audit_logger.py:100 Node created
+Traceback (most recent call last):
+  File "./random_traceback.py", line 108, in get_random_error_string
+  File "./random_traceback.py", line 81, in return_output
+InvalidArgumentError: Provided too few arguments
+2019-03-03 13:18:52.211213 DBG db_read.py:227 Gathering logs from all nodes
+2019-03-03 13:18:52.514004 ERROR wsgi_handler.py:260 Gathering logs from all nodes
+2019-03-03 13:18:53.270648 ERROR log_collector.py:107 Gathering logs from all nodes
+2019-03-03 13:18:53.523230 INFO protobuf_parser.py:285 Gathering logs from all nodes
+2019-03-03 13:18:53.573645 INFO audit_logger.py:348 Generated binary file
+2019-03-03 13:18:53.776009 ERROR db_write.py:59 Gathering node data
+2019-03-03 13:18:53.826380 ERROR task_generator.py:344 Node destroyed
+2019-03-03 13:18:53.877061 ERROR http_handler.py:336 Fanning out RPC
+2019-03-03 13:18:54.027935 DBG wsgi_handler.py:195 Generated binary file
+2019-03-03 13:18:54.128966 INFO fanout.py:120 Gathering node data
+2019-03-03 13:18:54.683887 DBG protobuf_parser.py:59 Generated binary file
+2019-03-03 13:18:55.089349 INFO gflags_handler.py:377 Fanning out RPC
+2019-03-03 13:18:55.544410 ERROR db_write.py:294 Node created
+Traceback (most recent call last):
+  File "./random_traceback.py", line 103, in get_random_error_string
+  File "./random_traceback.py", line 64, in extract_metadata
+  File "./random_traceback.py", line 88, in get_attributes
+  File "./random_traceback.py", line 86, in get_attributes
+  File "./random_traceback.py", line 59, in get_data
+MissingAttributeError: Attribute not provided
+2019-03-03 13:18:55.797210 ERROR task_generator.py:81 Node created
+Traceback (most recent call last):
+  File "./random_traceback.py", line 108, in get_random_error_string
+  File "./random_traceback.py", line 77, in return_output
+  File "./random_traceback.py", line 59, in get_data
+BasicAuthRequiredError: Username not provided
+2019-03-03 13:18:57.072336 INFO protobuf_parser.py:97 Gathering logs from all nodes
+2019-03-03 13:18:57.329304 DBG scheduler.py:39 Fanning out RPC
+2019-03-03 13:18:57.939523 DBG gflags_handler.py:139 Gathering logs from all nodes
+2019-03-03 13:18:57.990775 INFO publisher.py:298 Combining logs from all nodes into single log file
+2019-03-03 13:18:58.041201 DBG protobuf_parser.py:48 Fanning out RPC
+2019-03-03 13:18:58.193800 INFO ssh_tunnel.py:162 Gathering logs from all nodes
+2019-03-03 13:18:58.397573 INFO log_collector.py:114 Creating task
+2019-03-03 13:18:58.448447 ERROR gflags_handler.py:332 Node destroyed
+2019-03-03 13:18:59.512240 INFO gflags_handler.py:397 Gathering node data
+2019-03-03 13:18:59.714616 ERROR task_generator.py:110 Gathering logs from all nodes
+2019-03-03 13:18:59.765127 DBG alert_manager.py:69 Node created
+2019-03-03 13:19:00.116734 ERROR alert_manager.py:95 Gathering logs from all nodes
+2019-03-03 13:19:00.217456 ERROR log_collector.py:33 Node destroyed
+2019-03-03 13:19:00.267723 INFO db_write.py:331 Generated binary file
+2019-03-03 13:19:00.569992 ERROR ssh_tunnel.py:330 Generated binary file
+2019-03-03 13:19:01.023479 ERROR task_generator.py:207 Fanning out RPC
+2019-03-03 13:19:01.479103 DBG rpc_client.py:71 Combining logs from all nodes into single log file
+2019-03-03 13:19:01.580008 DBG fanout.py:257 Fanning out RPC
+2019-03-03 13:19:01.631218 INFO audit_logger.py:73 Gathering logs from all nodes
+Traceback (most recent call last):
+  File "./random_traceback.py", line 113, in get_random_error_string
+  File "./random_traceback.py", line 88, in get_attributes
+  File "./random_traceback.py", line 92, in get_attributes
+BasicAuthRequiredError: Username not provided
+2019-03-03 13:19:02.291303 INFO db_read.py:266 Fanning out RPC
+2019-03-03 13:19:02.542910 ERROR wsgi_handler.py:64 Gathering node data
+2019-03-03 13:19:02.644270 ERROR log_collector.py:75 Gathering node data
+2019-03-03 13:19:02.745109 DBG publisher.py:365 Node destroyed
+2019-03-03 13:19:02.795765 DBG scheduler.py:371 Node created
